@@ -1,12 +1,10 @@
 import sounddevice as sd
 import numpy as np
-import time
 import queue
 import threading
 import librosa
 import tkinter as tk
 from tkinter import ttk, messagebox
-from scipy import signal
 
 def select_devices():
     """
